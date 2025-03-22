@@ -47,10 +47,10 @@ df
 ## df["Survived"].value_counts()
 ![362538980-f8cd1730-ac50-4e4b-8299-df5e2d4cbc84](https://github.com/user-attachments/assets/710015ce-7fb3-444c-8559-fdd48203ee3e)
 
-## per=(df["Survived"].value_
+## per=(df["Survived"].value_counts(normalize=true)
 
 ![361680002-ca17452e-4508-4d6e-a724-a4c79a8a4152](https://github.com/user-attachments/assets/002bd98c-11d4-40cb-b4c6-395467601517)
-counts()/df.shape[0]*100).round(2)
+
 ## sns.countplot(data=df,x="Survived")
 ![361680213-6edb9293-3408-432a-aff6-29073117693b](https://github.com/user-attachments/assets/af255087-2259-43c4-9b33-9dfb90dcaf38)
 ## df.Pclass.unique()
